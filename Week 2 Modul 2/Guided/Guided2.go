@@ -7,7 +7,7 @@ func main() {
 	fmt.Print("Masukkan angka: ")
 	fmt.Scan(&angka)
 
-	for angka < 10 {
+	for angka < 10 { 
 		fmt.Println("Angka sekarang adalah: ", angka)
 		angka++
 	}
