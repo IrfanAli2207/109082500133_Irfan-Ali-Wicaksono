@@ -2,15 +2,23 @@ package main
 
 import "fmt"
 
-func fib(n int) int {
-    if n <= 1 {
-        return n
-    }
-    return fib(n-1) + fib(n-2)
+func bintang(n int, i int) {
+	if i > n {
+		return
+	}
+
+	for j := 1; j <= i; j++ {
+		fmt.Print("*")
+	}
+	fmt.Println()
+
+	bintang(n, i+1)
 }
 
 func main() {
-    for i := 0; i <= 10; i++ {
-        fmt.Print(fib(i), " ")
-    }
+	var n int
+	fmt.Print("Masukkan angka: ")
+	fmt.Scan(&n)
+
+	bintang(n, 1)
 }

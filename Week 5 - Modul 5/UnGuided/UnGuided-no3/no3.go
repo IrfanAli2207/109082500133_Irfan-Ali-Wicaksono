@@ -2,22 +2,18 @@ package main
 
 import "fmt"
 
-func cariFaktor(n int, i int) {
-	if i > n {
-		return
+func pangkat(x int, y int) int {
+	if y == 0 {
+		return 1
 	}
-
-	if n%i == 0 {
-		fmt.Println(i)
-	}
-
-	cariFaktor(n, i+1)
+	return x * pangkat(x, y-1)
 }
 
 func main() {
-	var n int
-	fmt.Print("Masukkan angka: ")
-	fmt.Scan(&n)
+	var x, y int
+	fmt.Print("Masukkan x dan y: ")
+	fmt.Scan(&x, &y)
 
-	cariFaktor(n, 1)
+	hasil := pangkat(x, y)
+	fmt.Println("Hasil:", hasil)
 }

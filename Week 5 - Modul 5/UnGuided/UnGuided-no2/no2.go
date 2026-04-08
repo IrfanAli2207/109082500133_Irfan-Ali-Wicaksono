@@ -2,17 +2,13 @@ package main
 
 import "fmt"
 
-func bintang(n int, i int) {
-	if i > n {
+func tampilkan(n int) {
+	if n == 0 {
 		return
 	}
 
-	for j := 1; j <= i; j++ {
-		fmt.Print("*")
-	}
-	fmt.Println()
-
-	bintang(n, i+1)
+	tampilkan(n - 1)
+	fmt.Println(n)
 }
 
 func main() {
@@ -20,5 +16,5 @@ func main() {
 	fmt.Print("Masukkan angka: ")
 	fmt.Scan(&n)
 
-	bintang(n, 1)
+	tampilkan(n)
 }
