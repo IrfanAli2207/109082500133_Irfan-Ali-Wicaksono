@@ -4,7 +4,7 @@ import "fmt"
 
 func volumeTabung(jari_jari, tinggi int) float64 {
 	var luasAlas, volume float64
-	luasAlas = 3.14 * float64(jari_jari*jari_jari)
+	luasAlas = 3.14 * float64(jari_jari*jari_jari) 
 	volume = luasAlas * float64(tinggi)
 	return volume
 }
