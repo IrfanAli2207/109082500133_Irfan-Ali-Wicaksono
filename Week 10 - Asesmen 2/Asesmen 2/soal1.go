@@ -55,8 +55,8 @@ func main() {
 		}
 	}
 
-	// output
+	
 	for i := 0; i < nC; i++ {
 		fmt.Print(c[i], " ")
 	}
-}4
+}
