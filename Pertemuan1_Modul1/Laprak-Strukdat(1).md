@@ -50,7 +50,7 @@ int main() {
 }
 
 ### Output Unguided 1 :
-
+![Screenshot Output Unguided 1_1](https://github.com/IrfanAli2207/109082500133_Irfan-Ali-Wicaksono/raw/main/Pertemuan1_Modul1/Output-unguided1-modul1.png)
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/IrfanAli2207/109082500133_Irfan-Ali-Wicaksono/raw/main/Pertemuan1_Modul1/Output-unguided1-modul1.png)
