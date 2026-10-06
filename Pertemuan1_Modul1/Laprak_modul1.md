@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Irfan Ali Wicaksono - 109082500133</p>
+<p align="center">Irfan Ali Wicaksono - 109082500133eq</p>
 
 ## Dasar Teori
 
