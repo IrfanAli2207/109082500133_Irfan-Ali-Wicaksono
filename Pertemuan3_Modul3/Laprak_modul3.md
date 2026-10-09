@@ -88,7 +88,7 @@ int main ()
 ### Output guided 1 :
 
 ##### Output 1
-![Output Program Matriks](./Output1-guided1-modul3.png)
+![Output Guided 1](output1-guided1-modul3.png)
 
 penjelasan singkat guided 1
 Program ini membagi kode ke dalam tiga file—mahasiswa.h sebagai deklarasi tipe data struct dan fungsi, mahasiswa.cpp sebagai tempat logika penginputan serta penghitungan rata-rata nilai, dan main.cpp sebagai alur utama yang mengintegrasikan semuanya untuk meminta input data mahasiswa lalu menampilkan hasil rata-ratanya.
@@ -154,7 +154,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program Matriks](./Output1-unguided1-modul3.png)
+![Output Unguided 1](output1-unguided1-modul3.png)
 
 
 penjelasan unguided 1 
