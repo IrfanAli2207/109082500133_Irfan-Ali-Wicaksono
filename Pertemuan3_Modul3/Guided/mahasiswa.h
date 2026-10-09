@@ -3,7 +3,7 @@
 
 struct mahasiswa {
     char nim[10];
-    int nilai1, nilai2; // Sudah digabung tanpa spasi
+    int nilai1, nilai2; 
 };
 
 void inputMhs(mahasiswa &m);
